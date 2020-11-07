@@ -20,7 +20,9 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 
 call plug#begin('~/.vim/plugged')
+
 Plug 'morhetz/gruvbox'
+Plug 'jeffkreeftmeijer/vim-numbertoggle'
 
 call plug#end()
 
