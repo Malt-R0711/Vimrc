@@ -2,6 +2,7 @@ syntax on
 
 set noerrorbells
 set belloff=all
+set termguicolors
 set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab
@@ -26,6 +27,8 @@ Plug 'jremmen/vim-ripgrep'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-utils/vim-man'
 Plug 'mbbill/undotree'
+Plug 'jeffkreeftmeijer/vim-numbertoggle'
+Plug 'preservevim/nerdtree'
 
 call plug#end()
 
