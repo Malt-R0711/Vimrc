@@ -18,13 +18,20 @@ set incsearch
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
-
 call plug#begin('~/.vim/plugged')
 
 Plug 'morhetz/gruvbox'
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
+Plug 'jremmen/vim-ripgrep'
+Plug 'tpope/vim-fugitive'
+Plug 'vim-utils/vim-man'
+Plug 'mbbill/undotree'
 
 call plug#end()
 
 colorscheme gruvbox
 set background=dark
+
+:nmap <C-s> :w<CR>
+:imap <C-s> <Esc>:w<CR>
+:map <F2> ebi<CR><ESC>w
