@@ -28,7 +28,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'vim-utils/vim-man'
 Plug 'mbbill/undotree'
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
-Plug 'preservevim/nerdtree'
+Plug 'preservim/nerdtree'
 
 call plug#end()
 
