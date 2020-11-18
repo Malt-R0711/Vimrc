@@ -41,6 +41,7 @@ Plug 'mbbill/undotree'
 
 " file browser, <leder>nt to open
 Plug 'preservim/nerdtree'
+Plug 'neoclide/coc.nvim'
 
 call plug#end()
 
@@ -48,6 +49,7 @@ colorscheme gruvbox
 set background=dark
 
 let mapleader = " "
+let g:coc_global_extensions=[ 'coc-omnisharp' ]
 
 :nmap <C-s> :w<CR>
 :imap <C-s> <Esc>:w<CR>
